@@ -14,7 +14,8 @@ basys:
       service:
         implementationJavaClass: de.dfki.cos.basys.p4p.controlcomponent.mir.service.MirServiceImpl
         connectionString: http://robot-mir-01.mrk40.dfki.lan
-        auth: bXJrOjZjNGIwNmRjYTU4NmM1NzkxYmI2Nzc4MjFjZjU3YWQ0ZjcyOGVmMTZmMWNjN2ZiMDg1MmEwNmY3Yzc5NmI1M2Y=
+        properties:
+          auth: bXJrOjZjNGIwNmRjYTU4NmM1NzkxYmI2Nzc4MjFjZjU3YWQ0ZjcyOGVmMTZmMWNjN2ZiMDg1MmEwNmY3Yzc5NmI1M2Y=
     simulate:
       disableExecutionModeChange: true
       disableOccupationCheck: true
